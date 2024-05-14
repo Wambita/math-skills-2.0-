@@ -9,7 +9,7 @@ func TestCalcMedian(t *testing.T) {
 		expected float64
 	}{
 		{input: []float64{101, 242, 999, 98, 456}, expected: 242},
-		{input: []float64{100, 200, 500, 300, 400}, expected: 300},
+		{input: []float64{100, 200, 500, 300, 400,700}, expected: 300},
 	}
 
 	for _, test := range tests {
